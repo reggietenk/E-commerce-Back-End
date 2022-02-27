@@ -29,7 +29,7 @@ Using the sequelize ORM the application is then able to connect with the MySql d
 ## Usage 
 
 
-![screenshot](./assets/images/snapshot.png)
+![screenshot](./assets/images/Snapshot.png)
 
 
 To watch app demo please click here []
