@@ -15,7 +15,6 @@ router.get('/', (req, res) => {
       'price',
       'stock',
       'category_id'
-      // [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE product.id = vote.post_id)'), 'vote_count']
     ],
     include: [
       // include the Category model here:
@@ -146,6 +145,22 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
+  Product.destroy({
+    where: {
+      id: req.params.id
+    }
+  })
+    .then(dbProductData => {
+      if (!dbProductData) {
+        res.status(404).json({ message: 'No post found with this id' });
+        return;
+      }
+      res.json(dbProductData);
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
 });
 
 module.exports = router;

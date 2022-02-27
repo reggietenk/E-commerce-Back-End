@@ -24,7 +24,7 @@ Product.init(
       type: DataTypes.DECIMAL,
       allowNull: false,
       validate: {
-        isDecimal: 7
+        decimalNumbers: true,
        }
     },
     stock: {
@@ -32,7 +32,7 @@ Product.init(
       allowNull: false,
       values: 10,
       validate: {
-        isNumeric: 4,
+        decimalNumbers: true,
       }
     },
     category_id: {
