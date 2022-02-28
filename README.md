@@ -32,7 +32,10 @@ Using the sequelize ORM the application is then able to connect with the MySql d
 ![screenshot](./assets/images/Snapshot.png)
 
 
-To watch app demo please click here []
+To watch app demo please click here 
+[https://www.loom.com/share/a605bc48a6b744918081be8330bdafca?sharedAppSource=personal_library]
+[https://www.loom.com/share/aa5a5a58a6314efbad4edc85b160f9e9?sharedAppSource=personal_library]
+[https://www.loom.com/share/1c6bcb04e96a4ddf8c88a01396358603?sharedAppSource=personal_library]
 
 
 ## License
