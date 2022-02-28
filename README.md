@@ -3,7 +3,7 @@
 ## Description 
 
 The E-commerce-Back-End application provides the user with ablity to view the current inventory & price of a product, and allows the user to update the information as needed.
-Using the sequelize ORM the application is then able to connect with the MySql database.
+Using the sequelize ORM the application is then able to connect with the MySql database. The user has the abilty to change and access data from the database with api routes using the GET,POST,PUT, & DELETE methods.
 
 ## Table of Contents 
 
